@@ -1,0 +1,254 @@
+:root {
+  --primary-color: #2e2f42;
+  --secondary-color: #434455;
+  --light-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+}
+
+/**
+  |============================
+  | COMPONENTS
+  |============================
+*/
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/**
+  |============================
+  | /COMPONENTS
+  |============================
+*/
+
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.menu-link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.menu-link:active {
+  color: #404bbf;
+}
+
+.contact-item {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.contact-item:active {
+  color: #404bbf;
+}
+
+/**
+  |============================
+  | /HEADER
+  |============================
+*/
+
+/**
+  |============================
+  | HERO
+  |============================
+*/
+
+.hero-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--light-color);
+}
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--light-color);
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #404bbf;
+}
+/**
+  |============================
+  | /HERO
+  |============================
+*/
+
+/**
+  |============================
+  | Advantages
+  |============================
+*/
+.advantages-subtitle {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.advantages-subtitle-description {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+/**
+  |============================
+  | /Advantages
+  |============================
+*/
+
+/**
+  |============================
+  | Services
+  |============================
+*/
+
+.services-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/**
+  |============================
+  | /Services
+  |============================
+*/
+
+/**
+  |============================
+  | TEAM
+  |============================
+*/
+.team-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+
+.team-name {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.team-text {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+/**
+  |============================
+  | /TEAM
+  |============================
+*/
+
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+.footer-logo-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/**
+  |============================
+  | /FOOTER
+  |============================
+*/
