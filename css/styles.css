@@ -11,7 +11,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
   background-color: var(--primary-bg-color);
 }
 
@@ -95,20 +95,26 @@ body {
   color: var(--primary-text-color);
 }
 
+.menu-link:hover,
+.menu-link:focus,
 .menu-link:active {
   color: #404bbf;
 }
 
+.contact-info {
+  font-style: normal;
+}
+
 .contact-item {
   font-family: inherit;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
-
+.contact-item:hover,
+.contact-item:focus,
 .contact-item:active {
   color: #404bbf;
 }
@@ -190,6 +196,10 @@ body {
 */
 .team {
   background-color: var(--cloud-bg-color);
+}
+
+.team-list-item {
+  background-color: var(--primary-bg-color);
 }
 
 .team-name {
